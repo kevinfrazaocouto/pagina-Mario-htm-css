@@ -1,0 +1,125 @@
+body{
+    
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: url(imagem/vI2b7Wt.jpg);
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+title{
+    flex-direction: column; 
+}
+img{
+    width: 150px;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+margin: 30px;
+color: rgb(255, 0, 0);
+list-style-type: none;}
+a:hover{
+    color: #ffffff;
+    transition: 0.5s;
+}
+.bnt{
+   
+   
+    border: 2px solid rgb(255, 0, 0);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+.bnt:hover{
+    color: #ff0000;
+    background-color: rgb(255, 255, 255);
+}
+
+main{display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+
+}
+h1{color: rgb(255, 4, 4);
+    font-weight: 700;
+    font-size: 70px;
+    margin-top: 100px;
+    line-height: 39px;
+    text-align: center;
+    
+}
+h1 span{
+    font-size: 50px;
+    color: rgb(19, 134, 1);
+}
+p{
+    line-height: 20px;
+    text-align: justify;
+    text-align: left;
+    max-width: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+article img{
+    
+    width: 700px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+   
+}
+form {
+    padding: 40px;
+   background-color: #05050557;
+   text-align: center;
+   width: 100%;
+   border-radius: 20px;
+  
+}
+.input-box label{
+    display: block;
+    color: white;
+    text-align: justify;
+   }
+   .input-box input{
+    width: 100%;
+    padding: 9px;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}
+.btn-enviar{
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.btn-enviar input{
+    color: #ffffff;
+    background-color: #137400;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 15px 17px;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
+button{
+    border-radius: 22px;
+    border: none;
+    padding: 0px 0px;
+}
+.btn-enviar input:hover{
+transition: 0.3s;
+background-color: #c2a503;
+padding: 15px 17px;
+
+
+
+}
